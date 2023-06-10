@@ -2,7 +2,7 @@
   border-radius: 0.5rem;
   overflow: hidden;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 800px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 37.5rem;
@@ -12,7 +12,7 @@
 .image {
   height: 15rem;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 800px) {
     height: 100%;
   }
 }
@@ -24,7 +24,7 @@
   & > * + * {
     margin-top: 1rem;
 
-    @media (min-width: 1440px) {
+    @media (min-width: 800px) {
       margin-top: 1.75rem;
     }
   }
@@ -42,7 +42,7 @@
     font-weight: 700;
     line-height: 1;
 
-    @media (min-width: 1440px) {
+    @media (min-width: 800px) {
       margin-top: 1rem;
     }
   }
@@ -81,7 +81,7 @@
     }
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 800px) {
     padding: 2rem;
   }
 }

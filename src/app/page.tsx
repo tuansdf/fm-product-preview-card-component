@@ -9,7 +9,7 @@ export default function Home() {
       <picture className={classes["picture"]}>
         <source
           srcSet="/images/image-product-desktop.jpg"
-          media="(min-width: 1440px)"
+          media="(min-width: 800px)"
         />
         <img
           loading="lazy"
