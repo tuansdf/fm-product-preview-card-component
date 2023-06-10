@@ -1,3 +1,60 @@
 .main {
-  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.image {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.body {
+  padding: 1.75rem;
+  background-color: hsl(var(--white));
+
+  & > .heading {
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  & > .title {
+    margin-top: 0.5rem;
+    font-size: 1.95rem;
+    color: hsl(var(--very-dark-blue));
+    font-weight: 700;
+    line-height: 1;
+  }
+  & > .subtitle {
+    margin-top: 1rem;
+    line-height: 1.65;
+  }
+  & > .price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    & > .new {
+      color: hsl(var(--dark-cyan));
+      font-size: 1.95rem;
+      font-weight: 700;
+    }
+    & > .old {
+      text-decoration-line: line-through;
+    }
+  }
+  & > .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: hsl(var(--dark-cyan));
+    color: hsl(var(--white));
+    font-weight: 700;
+  }
 }

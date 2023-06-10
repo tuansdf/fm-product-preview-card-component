@@ -1,5 +1,6 @@
+import clsx from "clsx";
 import { PropsWithChildren } from "react";
-import { bodyFont } from "~/app/fonts";
+import { bodyFont, headingFont } from "~/app/fonts";
 import "~/styles/index.scss";
 
 export const metadata = {
